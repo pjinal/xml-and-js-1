@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>​
+<groupInfo>
+<person1>​
+  <name>Laya</name>
+  <hobbies>Playing badminton</hobbies>
+  <hobbies>Reading</hobbies>
+  <hobbies>Cleaning</hobbies>
+  </person1>
+  <person2>
+  <name>Serah</name>
+  <hobbies>Playing Tennis</hobbies>
+  <hobbies>Reading</hobbies>
+  <hobbies>Watching movies</hobbies>
+  </person2>
+  <person3>
+  <name>Mini</name>
+  <hobbies>Swimming</hobbies>
+  <hobbies>Reading</hobbies>
+  <hobbies>Cooking</hobbies>
+  </person3>
+  <person4>
+  <name>Jaick</name>
+  <hobbies>Playing badminton</hobbies>
+  <hobbies>Reading</hobbies>
+  <hobbies>Watching movies</hobbies>
+  </person4>
+  <person5>
+  ​<name>Jacob</name>
+  <hobbies>Playing an instrument</hobbies>
+  <hobbies>Reading</hobbies>
+  <hobbies>Watching movies</hobbies>
+  </person6>
+  <name>Shiny</name>
+  <hobbies>Playing basketball</hobbies>
+  <hobbies>Reading</hobbies>
+  <hobbies>Watching movies</hobbies>
+  </person7>
+  <name>David</name>
+  <hobbies>Outdoor activities</hobbies>
+  <hobbies>Reading</hobbies>
+  <hobbies>Watching movies</hobbies>
+  </person8>
+  <name>Ansi</name>
+  <hobbies>Playing basketball</hobbies>
+  <hobbies>Reading</hobbies>
+  <hobbies>Watching movies</hobbies>
+  </person9>
+  <name>Sriya</name>
+  <hobbies>Exercising</hobbies>
+  <hobbies>Reading</hobbies>
+  <hobbies>Outdoor activities</hobbies>
+  </person10>
+  <name>Jill</name>
+  <hobbies>baking</hobbies>
+  <hobbies>Reading</hobbies>
+  <hobbies>Watching movies</hobbies>
+  </person10>
+</groupInfo>

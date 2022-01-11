@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evaluation 2</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #a03ba3;
+}
+
+.container-box {
+  border-radius: 5px;
+  background-color: #dac7c7;
+  padding: 20px;
+}
+</style>
+
+<script>
+    function showMessage(){
+        var message = document.getElementById("message").value;
+        display_message.innerHTML= message;
+    }
+</script>
+</head>
+<body>
+
+<h3>Evaluation 2</h3>
+
+<div class="container-box">
+    <form name='myform'>
+    <p><label for="Email">Your Email *:</label>
+    <input type="text" id = "message" name="Email" style="width:300px"></p>
+
+   <p> <label for="date">Date of Visit:</label>
+    <input type="text"  name="date" placeholder="mm/dd/yy" style="width:200px">
+</p>
+    
+
+    <p><label for="comment">Your Comment</label>
+    <textarea id="comment" name="comment" style="height:200px"></textarea>
+
+    <input type="submit" onclick="showMessage" value="Send your feedback"></p>
+  </form>
+</div>
+
+
+</body>
+</html>
