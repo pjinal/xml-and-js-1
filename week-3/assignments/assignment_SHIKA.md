@@ -1,11 +1,11 @@
-1.![image info](../images/Assignment_dtdscreenshot.png)
+1.![image info](Assignment_dtdscreenshot.png)
 This is the dtd validation screenshot I got for Assignment.xml
 
 ->The dtd can be created using 
 <!DOCTYPE ...> construct.
 ->We can create element declarations using <!ELEMENT ..> construct and attribute declarations using <!ATTLIST ..> construct. 
 
-2.![image info](../images/Assignment_xsdscreenshot.png)
+2.![image info](Assignment_xsdscreenshot.png)
 This is the xsd validation screenshot I got for Assignment.xml
 
 ->xsd utilizes a seperate syntax for declarations.
