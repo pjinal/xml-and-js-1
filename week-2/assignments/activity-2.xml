@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<persons>
+<person1>
+    <name>Joe Marini</name>
+    <phone type1="home">+1 (415) 555-1234 </phone>
+    <phone type2="work">+1 (800) 555-9867 </phone>
+    <phone type3="mobile">+1 (510) 555-1212 </phone>
+    <email>joe@joe.com</email>
+</person1>
+<person2>
+    <name>Alice george</name>
+    <phone type1="home">+1 (416) 556-1234 </phone>
+    <phone type2="work">+1 (800) 555-9868 </phone>
+    <phone type3="mobile">+1 (510) 555-1012 </phone>
+    <email>joe@joe.com</email>
+</person2>
+<person3>
+    <name>Serah Mary</name>
+    <phone type1="home">+1 (647) 557-1235 </phone>
+    <phone type2="work">+1 (803) 555-9866 </phone>
+    <phone type3="mobile">+1 (514) 555-1017 </phone>
+    <email>joe@joe.com</email>
+</person3>
+<person4>
+    <name>Sachu Mathew</name>
+    <phone type1="home">+1 (646) 557-1238 </phone>
+    <phone type2="work">+1 (808) 555-9864 </phone>
+    <phone type3="mobile">+1 (513) 555-1019 </phone>
+    <email>joe@joe.com</email>
+</person4>
+</persons>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>HTML Form</title>
+        
+		<script language="JavaScript">
+			function logResults(event) {
+				event.preventDefault();
+				const form = event.target;
+
+				const fname = form.fname.value;
+				const language = form.language.value;
+				const inputValue = form.beverage;
+				let favouritebeverage= "";
+				for (let i = 0; inputValue[i]; ++i) {
+					if (inputValue[i].checked) {
+						favouritebeverage += inputValue[i].value + " ";
+					}
+				}
+				console.log(`Name: ${fname}`);
+				console.log(`Favorite language: ${language}`);
+				console.log(`Favourite beverage: ${favouritebeverage}`);
+			}
+		</script>
+	</head>
+	<body>
+		<form onSubmit="logResults(event)" action="" method="get">
+
+            <p>Enter your details here :</p>
+
+			<label for="fname">Enter your full name</label>
+			<input type="text" name="fname" value="" />
+        <br />
+			<p>Which is your favourite Web language ?</p>
+			<input type="radio" name="language" id="HTML" value="HTML" />
+			<label for="HTML">HTML</label>
+			<input type="radio" name="language" id="CSS" value="CSS" />
+			<label for="CSS">CSS</label>
+			<input type="radio" name="language" id="JavaScript" value="JavaScript" />
+			<label for="JavaScript">JavaScript</label>
+        <br />
+			<p>What is your favourite beverage ?</p>
+			<input type="checkbox" name="beverage" id="Juice" value="Juice" />
+			<label for="Juice">Juice</label>
+			<input type="checkbox" name="beverage" id="mocha" value="mocha" />
+			<label for="mocha">Mocha</label>
+			<input type="checkbox" name="beverage" id="Tea" value="Tea" />
+			<label for="Tea">Tea</label>
+		<br />
+			
+			<button type="ok">Click ok</button>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE  products
+[
+<!ELEMENT products (product+)>
+    <!ELEMENT product (name, sizes?, prices?)>
+    <!ATTLIST product id ID #REQUIRED>
+    <!ELEMENT pname (#PCDATA)>
+    <!ELEMENT psize (size+)>
+    <!ELEMENT size (#PCDATA)>
+    <!ATTLIST size type CDATA #REQUIRED>
+    <!ELEMENT prices (price+)>
+    <!ELEMENT price (#PCDATA)>
+    <!ATTLIST price currency CDATA #REQUIRED
+]>

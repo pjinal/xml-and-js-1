@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE products SYSTEM "index.dtd">
+<products>
+    <product id="a332d8d2-86d7-11ec-a8a3-0242ac120002">
+        <pname>Microfleece hoodie</pname>
+        <psize>
+            <size type="XS">0</size>
+            <size type="S">3</size>
+            <size type="M">13</size>
+            <size type="L">5</size>
+            <size type="XL">2</size>
+        </psize>
+        <price currency="USD">US&#36;49.99</price>
+        <price currency="CAD">CAD&#36;54.99</price>
+    </product>
+
+    <product id="a332dac6-86d7-11ec-a8a3-0242ac120002">
+        <pname>Vintage Soft Hoodie</pname>
+        <psize>
+            <size type="XS">3</size>
+            <size type="S">8</size>
+            <size type="M">25</size>
+            <size type="L">12</size>
+            <size type="XL">4</size>
+        </psize>
+        <price currency="USD">US&#36;39.99</price>
+        <price currency="CAD">CAD&#36;49.99</price>
+    </product>
+
+    <product id="a332dbf2-86d7-11ec-a8a3-0242ac120002">
+        <pname>Crewneck Sweatshirt</pname>
+        <psize>
+            <size type="XS">0</size>
+            <size type="S">0</size>
+            <size type="M">15</size>
+            <size type="L">13</size>
+            <size type="XL">0</size>
+        </psize>
+        <price currency="CAD">CAD&#36;47.97</price>
+    </product>
+
+    <product id="a332dd0a-86d7-11ec-a8a3-0242ac120002">
+        <pname>French Terry Raglan Crewneck Sweatshirt</pname>
+        <psize>
+            <size type="XS">0</size>
+            <size type="S">0</size>
+            <size type="M">0</size>
+            <size type="L">1</size>
+            <size type="XL">0</size>
+        </psize>
+        <price currency="USD">US&#36;37.97</price>
+    </product>
+</products>
