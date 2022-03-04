@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <title>Student Data</title>
+  <link rel='stylesheet' href='style.css'/>
+</head>
+
+<body>
+  <form id="studentSearch" onreset="onReset()">
+    <input type="text" name="search" id="input-name-term" placeholder="enter search term" />
+    <button type="submit">Search</button>
+    
+    
+    <h4>Filter with Gender:</h4>
+    <input type="checkbox" id="gender1" name="gender1" value="Male" onchange="checkBoxSelect()">
+    <label for="gender1"> Male</label><br>
+    <input type="checkbox" id="gender2" name="gender2" value="Female" onchange="checkBoxSelect()">
+    <label for="gender2"> Female</label><br>
+
+    <button type="reset" class="resetButton">Reset</button>
+  </form>
+
+  <table id="student-table" >
+    <tr>
+      <th>ID</th>
+      <th>Gender</th>
+      <th>Name</th>
+      <th>Major</th>
+      <th>Enrollment Date</th>
+    </tr>
+  </table>
+  <script type="text/javascript" src="student.js"></script>
+</body>
+
+</html>

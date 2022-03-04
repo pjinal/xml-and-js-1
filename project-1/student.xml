@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student id="1001" gender="Male">
+    <studentname>Albert</studentname>
+    <major>Finance</major>
+    <enrollmentdate>22/09/2001</enrollmentdate>
+  </student>
+    <student id="1002" gender="Male">
+    <studentname>Ben</studentname>
+    <major>Accounting</major>
+    <enrollmentdate>11/08/2001</enrollmentdate>
+  </student>
+    <student id="1003" gender="Female">
+    <studentname>Catherine</studentname>
+    <major>Sociology</major>
+    <enrollmentdate>02/09/1998</enrollmentdate>
+  </student>
+    <student id="1004" gender="Female">
+    <studentname>Danielle</studentname>
+    <major>Computer Science</major>
+    <enrollmentdate>26/11/2000</enrollmentdate>
+  </student>
+    <student id="1005" gender="Male">
+    <studentname>Evan</studentname>
+    <major>Finance</major>
+    <enrollmentdate>09/09/2001</enrollmentdate>
+  </student>
+    <student id="1006" gender="Male">
+    <studentname>Fabio</studentname>
+    <major>Accounting</major>
+    <enrollmentdate>16/09/2001</enrollmentdate>
+  </student>
+    <student id="1007" gender="Female">
+    <studentname>Grace</studentname>
+    <major>Accounting</major>
+    <enrollmentdate>09/09/2001</enrollmentdate>
+  </student>
+    <student id="1008" gender="Male">
+    <studentname>Harish</studentname>
+    <major>Biochemistry</major>
+    <enrollmentdate>11/09/2001</enrollmentdate>
+  </student>
+    <student id="1009" gender="Female">
+    <studentname>Irene</studentname>
+    <major>Computer Science</major>
+    <enrollmentdate>10/09/2000</enrollmentdate>
+  </student>
+    <student id="1010" gender="Male">
+    <studentname>Jake</studentname>
+    <major>Biology</major>
+    <enrollmentdate>08/11/2001</enrollmentdate>
+  </student>
+    <student id="1011" gender="Male">
+    <studentname>Kevin</studentname>
+    <major>Finance</major>
+    <enrollmentdate>06/08/2001</enrollmentdate>
+  </student>
+    <student id="1012" gender="Female">
+    <studentname>Lara</studentname>
+    <major>Business Administration</major>
+    <enrollmentdate>04/08/2001</enrollmentdate>
+  </student>
+    <student id="1013" gender="Female">
+    <studentname>May</studentname>
+    <major>Sociology</major>
+    <enrollmentdate>03/07/2001</enrollmentdate>
+  </student>
+    <student id="1014" gender="Female">
+    <studentname>Nisha</studentname>
+    <major>Computer Science</major>
+    <enrollmentdate>22/08/2001</enrollmentdate>
+  </student>
+    <student id="1015" gender="Male">
+    <studentname>Oscar</studentname>
+    <major>Finance</major>
+    <enrollmentdate>24/06/2001</enrollmentdate>
+  </student>
+    <student id="1016" gender="Female">
+    <studentname>Priya</studentname>
+    <major>Anthropology</major>
+    <enrollmentdate>28/01/1999</enrollmentdate>
+  </student>
+    <student id="1017" gender="Male">
+    <studentname>Quin</studentname>
+    <major>Chemistry</major>
+    <enrollmentdate>30/10/2001</enrollmentdate>
+  </student>
+    <student id="1018" gender="Male">
+    <studentname>Ray</studentname>
+    <major>History</major>
+    <enrollmentdate>20/11/2000</enrollmentdate>
+  </student>
+    <student id="1019" gender="Female">
+    <studentname>Stacy</studentname>
+    <major>Mathematics</major>
+    <enrollmentdate>04/07/1999</enrollmentdate>
+  </student>
+    <student id="1020" gender="Male">
+    <studentname>Tom</studentname>
+    <major>Economics</major>
+    <enrollmentdate>01/09/2000</enrollmentdate>
+  </student>
+    <student id="1021" gender="Female">
+    <studentname>Unnati</studentname>
+    <major>Physics</major>
+    <enrollmentdate>27/08/2000</enrollmentdate>
+  </student>
+    <student id="1022" gender="Female">
+    <studentname>Vanessa</studentname>
+    <major>Finance</major>
+    <enrollmentdate>29/04/2001</enrollmentdate>
+  </student>
+    <student id="1023" gender="Male">
+    <studentname>Wayne</studentname>
+    <major>Economics</major>
+    <enrollmentdate>16/04/1999</enrollmentdate>
+  </student>
+    <student id="1024" gender="Male">
+    <studentname>Xavier</studentname>
+    <major>Biology</major>
+    <enrollmentdate>08/08/2001</enrollmentdate>
+  </student>
+    <student id="1025" gender="Female">
+    <studentname>Zenia</studentname>
+    <major>Music</major>
+    <enrollmentdate>29/09/2000</enrollmentdate>
+  </student>
+</students>
