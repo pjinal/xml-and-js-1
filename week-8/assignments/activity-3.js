@@ -13,8 +13,8 @@ const generateRandomNumber = () =>Math.floor(Math.random() * 40);
 const generateData = async () =>timeout(1000).then(() => Array.from({ length: 20 }, generateRandomNumber))
 const convertToFeet = (meters) =>timeout(3500).then(() => (meters * 3.2808))
 
-const processData = async (data, replace) =>
-  await Promise.all(data.map(async (value) => {
+const processData = async(data, replace) =>
+  await Promise.all(data.map(async(value) => {
       return { v1: value, r1:await replace(value) };
   }
   )
