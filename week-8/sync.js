@@ -13,7 +13,6 @@ split(sep = " ") {
   return q(3000).then(() =>this.name.split(sep));
 },
 };
-
 class Person {
 constructor(name) {
   this.name = name;
@@ -27,22 +26,20 @@ split(sep = " ") {
   return q(3000).then(() => this.name.split(sep));
 }
 }
-
 const person = Person.of("Marcus Aurelius");
-
 function doLogs() 
 {
 Promise.all([inc(5), sum(1, 3), max(8, 6), avg(8, 6), obj.split(), person.split()])
-.then(result => {
+.then(out => {
 
 
 
-  console.log("inc(5) =",  result[0]);
-  console.log("sum(1, 3) =",  result[1]);
-  console.log("max(8, 6) =",  result[2]);
-  console.log("avg(8, 6) =",  result[3]);
-  console.log("obj.split() =",  result[4]);
-  console.log("person.split() =",  result[5]);
+  console.log("inc(5) =", out[0]);
+  console.log("sum(1, 3) =", out[1]);
+  console.log("max(8, 6) =", out[2]);
+  console.log("avg(8, 6) =",  out[3]);
+  console.log("obj.split() =",  out[4]);
+  console.log("person.split() =",  out[5]);
 });
 }
 
