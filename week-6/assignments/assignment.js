@@ -20,7 +20,7 @@ const generateTableRow = (item) => {
     const id = Array.from(item.getElementsByTagName(`id`))[0];
 	const firstname = Array.from(item.getElementsByTagName(`first_name`))[0];
 	const lastname = Array.from(item.getElementsByTagName(`last_name`))[0];
-    const email = Array.from(item.getElementsByTagName(`email`))[0];
+	const email = Array.from(item.getElementsByTagName(`email`))[0];
 	const gender = Array.from(item.getElementsByTagName(`gender`))[0];
     const ipAddress = Array.from(item.getElementsByTagName(`ip_address`))[0];
 
