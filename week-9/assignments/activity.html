@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test Input</title>
+</head>
+<body>
+    <form onsubmit="onSubmit(event)" onreset="onReset()">
+        <input type="text" name="first_name" id="first_name" placeholder="Enter the First name to search"/><br><br>
+        <input type="text" name="last_name" id="last_name" placeholder="Enter the Last name to search"/><br><br>
+        <input type="text" name="email" id="email" placeholder="Enter the Email to search"/><br><br>
+        <input type="text" name="gender" id="gender" placeholder="Enter the Gender to search"/><br><br>
+        <input type="text" name="ip_address" id="ip_address" placeholder="Enter the IP address to search"/><br><br>
+        <button type="submit">Apply filters</button>
+        <button type="reset">Reset</button>
+    </form>
+      <table id="html-table">
+        <thead>
+            <tr>
+                <td><p>ID</p></td>
+                <td><p>Firstname</p></td>
+                <td><p>Lastname</p></td>
+                <td><p>Email</p></td>
+                <td><p>Gender</p></td>
+                <td><p>IP address</p></td>
+              </tr>
+        </thead>
+    </table>
+    <script src="activity.js"></script>
+</body>
+</html>
