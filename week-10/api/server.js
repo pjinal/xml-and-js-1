@@ -11,6 +11,8 @@ const parseURLParams = (value) => {
   );
 };
 
+server.listen(8888);
+
 const server = http.createServer(async (req, res) => {
   const [basePath, paramsString] = req.url.split("?");
 
